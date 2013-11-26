@@ -1,0 +1,9 @@
+
+imgs:
+  - name: icons.png
+    files:
+      - 'icons/icon*.png'
+    output: output/icons.png
+    css:
+      template: icons.css.template
+      output: output/icons.css

@@ -1,0 +1,12 @@
+
+.icon {
+    background-image: url(icon.png);
+}
+
+{% for img in images %}
+.{{ img.name }} {
+    background-position: {{ img.background_position }};
+    width: {{ img.width }};
+    height: {{ img.height }};
+}
+{% endfor %}
