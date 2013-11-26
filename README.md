@@ -1,7 +1,7 @@
-gen-sprite
+gen-sprites
 ==========
 
-gen-sprite 是帮你将网站中使用的图片合并成一张图片并生成css的工具.
+gen-sprites 是帮你将网站中使用的图片合并成一张图片并生成css的工具.
 
 ####准备工作
 
