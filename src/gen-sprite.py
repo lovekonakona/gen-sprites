@@ -185,7 +185,7 @@ class Sprite:
                 if new_right_candidate_width > 0:
                     right_candidate_options = dict(
                         width = new_right_candidate_width,
-                        height = candidate.height,
+                        height = img.height,
                         x = candidate.x + img.width,
                         y = candidate.y,
                     )
